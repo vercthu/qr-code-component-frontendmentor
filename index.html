@@ -13,6 +13,10 @@
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
     body {
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       background-color: hsl(212, 45%, 89%);
       font-family: 'Outfit', sans-serif;
       font-size: 1em;
@@ -46,7 +50,7 @@
 </head>
 <body>
 
-  <div class="card">
+  <div class="card" role="main">
     <div class="image">
     <img src="./images/image-qr-code.png" alt="">
     </div>
@@ -56,7 +60,7 @@
     </div>
   </div>
   
-  <div class="attribution">
+  <div class="attribution" role="contentinfo">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://vercthu.github.io/" target="_blank">vercthu</a>.
   </div>
